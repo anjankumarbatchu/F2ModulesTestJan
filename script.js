@@ -115,11 +115,9 @@
                 couponClassObj.classList.remove("hide");
 
                 let coupon = "";
-                let capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-                let smalls = "abcdefghijklmnopqrstuvwxyz";
                 let numbers = "0123456789";
 
-                let allChars = capitals + smalls + numbers;
+                let allChars = numbers;
 
                 for (let i = 0; i < 12; i++) {
                     let random = Math.floor(Math.random() * allChars.length);
